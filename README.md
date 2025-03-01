@@ -5,4 +5,7 @@
 Resource = [
           "arn:aws:dynamodb:${var.myregion_one}:${var.account_id}:table/${var.my_tablename}"
 ```
-          
+###  To allow Listtables ~ list all table
+```
+ Resource = ["*"]
+```
